@@ -1,7 +1,7 @@
 # Word_analogy-using-embeddings
 
 As before in this [repository](https://github.com/A2Amir/Natural-Language-Processing-with-Deep-Learning) explained, word embedding is able to model the similarity between words.
-To measure how similar two words are, we need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors $u$ and $v$, cosine similarity is defined as follows: 
+To measure how similar two words are, we need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors u and v, cosine similarity is defined as follows: 
 
 <p align="center">
 <img src="./img/1.JPG" alt=" cosine similarity" />
