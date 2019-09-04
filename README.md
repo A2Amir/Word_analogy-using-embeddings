@@ -16,3 +16,5 @@ The cosine of the angle between two vectors is a measure of how similar they are
 <p align="center"> 
 
 
+In addition to the similarity we want specific direction in the embedding space to be meaningful, the same vector that allows us to go from cat (pet animal) to wolf(wild animal) allows us also go from cat to tiger. 
+<img src="img/3.JPG" style="width:800px;height:250px;">
