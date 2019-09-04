@@ -11,9 +11,5 @@ where u.v is the dot product (or inner product) of two vectors, ||u||_2 is the n
 If u and v are very similar, their cosine similarity will be close to 1; if they are dissimilar, the cosine similarity will take a smaller value. 
 
 <img src="img/2.JPG" style="width:800px;height:250px;">
-<center> **Figure 1**: The cosine of the angle between two vectors is a measure of how similar they are</center>
+<center>  The cosine of the angle between two vectors is a measure of how similar they are</center>
 
-
-<p align="center">
-<img src="./img/2.JPG" alt=" syntax" />
-<p align="center"> 
