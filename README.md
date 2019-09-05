@@ -41,21 +41,14 @@ If u and v are very similar, their cosine similarity will be close to 1; if they
 The cosine of the angle between two vectors is a measure of how similar they are. 
 <p align="center"> 
 
-3- Other Matching based methods
+##  3. Other Matching based methods
 
 another popular family of these comparison methods,called matching-based methods.the matching coefficient is the one that I've given at the top there. you are just summing up all of the smaller of the two values,doing a point-wise comparison across the vectors that you wanna compare.Jaccard, Dice,Overlap are all defined in terms of that matching thing.
 
 The basic matching measure effectively creates a vector consisting of all of the smaller of the two values at each coordinate, and then sums them:
 <p align="center">
-<img src="./img/5.JPG" alt=" cosine similarity" />
+<img src="./img/6.JPG" alt=" cosine similarity" />
 <p align="center"> 
-
-This is implemented in vsm as matching.
-
-One approach to normalizing the matching values is the Jaccard coefficient. The numerator is the matching coefficient. The denominator — the normalizer — is intuitively like the set union: for binary vectors, it gives the cardinality of the union of the two being compared:
-$$\textbf{jaccard}(u, v) = 1 - \frac{\textbf{matching}(u, v)}{\sum_{i=1}^{n} \max(u_{i}, v_{i})}$$
-
-
 
 
 
