@@ -20,7 +20,7 @@ The most basic and intuitive distance measure between vectors is euclidean dista
 <img src="./img/6.JPG" alt=" Euclidean distance" />
 <p align="center"> 
 
-just uses the corresponding scipy.spatial.distance method to define it.
+just uses the corresponding **scipy.spatial.distance** method to define it.
 
 Notice: befor the use of the euclidean distance you should perform Length normalization:
 
@@ -50,7 +50,7 @@ The basic matching measure effectively creates a vector consisting of all of the
 
 
 
-
+---
 In addition to the similarity we want specific direction in the embedding space to be meaningful, the same vector (green vector) that allows us to go from man to woman allows us also go from boy to girl. 
 
 <p align="center">
