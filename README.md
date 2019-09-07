@@ -83,7 +83,7 @@ Therfor we can use the below formula as a proper distance metrice
 
 In the word embedding space, the geometric relationships between word vectors should reflect the semantic relationships between these words. 
 Word embeddings are meant to map human language into a geometric space. For instance, in a reasonable embedding space, we would expect synonyms to be embedded into similar word vectors, and in general we would expect the geometric distance (e.g. L2 distance) between any two word vectors to relate to the semantic distance of the associated words (words meaning very different things would be embedded to points 
-far away from each other, while related words would be closer). Even beyond more distance, we may want specific __directions__ in the embedding space to be meaningful.**The same vector (green vector) that allows us to go from man to woman allows us also go from boy to girl.**
+far away from each other, while related words would be closer). Even beyond more distance, we may want specific __directions__ in the embedding space to be meaningful.**The same vector (green vector) that allows us to go from man to boy allows us also go from boy to girl.**
 In real-world word embedding spaces, common examples of meaningful geometric transformations are "gender vectors" and "plural vector". For instance, by adding a "female vector" to the vector "king", one obtain the vector "queen". By adding a "plural vector", one obtain "kings".
 Word embedding spaces typically feature thousands of such interpretable and potentially useful vectors.
 
