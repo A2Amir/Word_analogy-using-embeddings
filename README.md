@@ -58,7 +58,27 @@ It is a good choise, if you are dealing with things that you would call probabil
   <p align="center">
 <img src="./img/8.JPG" alt="  KL Divergence" />
 <p align="center"> 
-  
+
+# Proper distance metric?
+To qualify as a distance metric, a vector comparison methodd has to be symmetric (d(x,y) =d(y,x)), assign 0 to identical vectors (d(x,x) =0), and satisfy thetriangle inequality:
+ 
+ <p align="center">
+<img src="./img/9.JPG" alt=" thetriangle inequality " />
+<p align="center"> 
+
+Cosine  distance  as  I  defined  itdoesn’t satify this:
+
+ 
+<p align="center">
+<img src="./img/10.JPG" alt=" thetriangle inequality" />
+<p align="center"> 
+
+Therfor we can use the below formula as a proper distance metrice
+<p align="center">
+<img src="./img/10.JPG" alt=" thetriangle inequality" />
+<p align="center"> 
+
+
 ---
 In addition to the similarity we want specific direction in the embedding space to be meaningful, the same vector (green vector) that allows us to go from man to woman allows us also go from boy to girl. 
 
