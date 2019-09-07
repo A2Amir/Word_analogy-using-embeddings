@@ -48,7 +48,7 @@ The basic matching measure effectively creates a vector consisting of all of the
 <img src="./img/4.JPG" alt=" Other Matching based methods" />
 <p align="center"> 
 
-##  4.Probablistic Vector Comparision methods
+##  4. Probablistic Vector Comparision methods
 It is a good choise, if you are dealing with things that you would call probability distribution   
 
 * KL Divergence
