@@ -48,8 +48,16 @@ The basic matching measure effectively creates a vector consisting of all of the
 <img src="./img/4.JPG" alt=" Other Matching based methods" />
 <p align="center"> 
 
+##  4.Probablistic Vector Comparision methods
+It is a good choise, if you are dealing with things that you would call probability distribution   
 
-
+* KL Divergence
+<p align="center">
+<img src="./img/8.JPG" alt="  KL Divergence" />
+<p align="center"> 
+  <p align="center">
+<img src="./img/4.JPG" alt="  KL Divergence" />
+<p align="center"> 
 ---
 In addition to the similarity we want specific direction in the embedding space to be meaningful, the same vector (green vector) that allows us to go from man to woman allows us also go from boy to girl. 
 
