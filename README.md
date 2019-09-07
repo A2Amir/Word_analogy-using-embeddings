@@ -75,7 +75,7 @@ Cosine  distance  as  I  defined  itdoesn’t satify this:
 
 Therfor we can use the below formula as a proper distance metrice
 <p align="center">
-<img src="./img/10.JPG" alt=" thetriangle inequality" />
+<img src="./img/11.JPG" alt=" thetriangle inequality" />
 <p align="center"> 
 
 
